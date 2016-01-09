@@ -58,17 +58,17 @@ Resume data
 var info = {
 	"bio": {
 		"name": "JuanMa Ruiz",
-	 	"role": "Front-end Developer",
-	 	"welcomeMessage" : "Hi! my name is <b>JuanMa Ruiz</b>, I'm a passionate <b>Front-End developer</b> &amp; <b>UI/UX Designer</b>, fluent with HTML5, CSS3 and continue to learn JavaScript and jQuery.<br/>So, basically, I'm just a simple guy who loves his job.",
-	 	"skills" : ["JavaScript", "jQuery", "AngularJS", "HTML5", "CSS3", "Grunt", "git", "mercurial", "RWD"],
-	 	"contacts" : {
-	 		"mobile": "615 862 642",
-	 		"email": "ruizjuanma@gmail.com",
-	 		"github": "JuanMaRuiz",
-	 		"twitter": "RjuanMa",
-	 		"location": "Madrid"
-	 	},
-	 	"avatar": "images/me.png"
+		"role": "Front-end Developer",
+		"welcomeMessage" : "Hi! my name is <b>JuanMa Ruiz</b>, I'm a passionate <b>Front-End developer</b> &amp; <b>UI/UX Designer</b>, fluent with HTML5, CSS3 and continue to learn JavaScript and jQuery.<br/>So, basically, I'm just a simple guy who loves his job.",
+		"skills" : ["JavaScript", "jQuery", "AngularJS", "HTML5", "CSS3", "Grunt", "git", "mercurial", "RWD"],
+		"contacts" : {
+			"mobile": "615 862 642",
+			"email": "ruizjuanma@gmail.com",
+			"github": "JuanMaRuiz",
+			"twitter": "RjuanMa",
+			"location": "Madrid"
+		},
+		"avatar": "images/me.png"
 	},
 
 	"work": {
@@ -90,29 +90,29 @@ var info = {
 		]
 	},
 	"projects": [
- 		{
- 	 		"title": "Proyect 01",
- 	 		"dates": "11-22-1111",
- 	 		"description": "Lorem ipsum Do dolore consequat eu reprehenderit in in voluptate consectetur dolor ullamco consectetur mollit ullamco eu consectetur.",
- 	 		"images": "images/sample.gif"
- 	
- 	 	},
- 	 	{
- 	 		"title": "Proyect 02",
- 	 		"dates": "11-22-2222",
- 	 		"description": "Lorem ipsum Do dolore consequat eu reprehenderit in in voluptate consectetur dolor ullamco consectetur mollit ullamco eu consectetur.",
- 	 		"images": "images/sample.gif"
- 	
- 	 	},
- 	 	{
- 	 		"title": "Proyect 03",
- 	 		"dates": "11-22-3333",
- 	 		"description": "Lorem ipsum Do dolore consequat eu reprehenderit in in voluptate consectetur dolor ullamco consectetur mollit ullamco eu consectetur.",
- 	 		"images": ["images/sample.gif","",""]
- 	
- 	 	}
- 	],
- 	"education": {
+		{
+			"title": "Proyect 01",
+			"dates": "11-22-1111",
+			"description": "Lorem ipsum Do dolore consequat eu reprehenderit in in voluptate consectetur dolor ullamco consectetur mollit ullamco eu consectetur.",
+			"images": "images/sample.gif"
+	
+		},
+		{
+			"title": "Proyect 02",
+			"dates": "11-22-2222",
+			"description": "Lorem ipsum Do dolore consequat eu reprehenderit in in voluptate consectetur dolor ullamco consectetur mollit ullamco eu consectetur.",
+			"images": "images/sample.gif"
+	
+		},
+		{
+			"title": "Proyect 03",
+			"dates": "11-22-3333",
+			"description": "Lorem ipsum Do dolore consequat eu reprehenderit in in voluptate consectetur dolor ullamco consectetur mollit ullamco eu consectetur.",
+			"images": ["images/sample.gif","",""]
+	
+		}
+	],
+	"education": {
 
 		"schools" : [
 			{
@@ -124,26 +124,69 @@ var info = {
 				"location": "Universidad de Cádiz"
 			}
 		],
-	    "onlineCourses": [
-	        {
-	            "title": "JavaScript Basics",
-	            "school": "Udacity",
-	            "date": "july 2015",
-	            "url": "https://www.udacity.com/course/javascript-basics--ud804"
-	        },
-	        {
-	            "title": "JavaScript Design Patterns",
-	            "school": "Udacity",
-	            "date": "june-july 2015",
-	            "url": "https://www.udacity.com/course/javascript-design-patterns--ud989"
-	        },
-	        {
-	            "title": "Responsive Images",
-	            "school": "Udacity",
-	            "date": "june 2015",
-	            "url": "https://www.udacity.com/course/responsive-images--ud882"
-	        }
-	    ]
+		"onlineCourses": [
+			{
+				"title": "JavaScript Basics",
+				"school": "Udacity",
+				"date": "july 2015",
+				"url": "https://www.udacity.com/course/javascript-basics--ud804",
+				"instructors": [
+					{
+						"name": "James Williams",
+						"by": "Udacity"
+					},
+					{
+						"name": "Cameron Pittman",
+						"by": "Udacity"
+					}
+				],
+				"final_project": ""
+			},
+			{
+				"title": "JavaScript Design Patterns",
+				"school": "Udacity",
+				"date": "june-july 2015",
+				"url": "https://www.udacity.com/course/javascript-design-patterns--ud989",
+				"instructors": [
+					{
+						"name": "Ben Jaffe",
+						"by": "Udacity"
+					}
+				],
+				"by": "Coursera",
+				"final_project": ""
+			},
+			{
+				"title": "Responsive Images",
+				"school": "Udacity",
+				"date": "june 2015",
+				"url": "https://www.udacity.com/course/responsive-images--ud882",
+				"instructors": [
+					{
+						"name": "Sam Dutton",
+						"by": "Udacity"
+					},
+					{
+						"name": "Cameron Pittman",
+						"by": "Udacity"
+					}
+				],
+				"by": "The Hong Kong University of Science and Technology",
+				"final_project": ""
+			},
+			{
+				"title": "Front-End JavaScript Frameworks: AngularJS",
+				"school": "Coursera",
+				"date": "december-january 2015",
+				"url": "https://www.coursera.org/learn/angular-js",
+				"instructor": [
+				{
+					"name": "Jogesh K. Muppala"
+				}],
+				"by": "The Hong Kong University of Science and Technology",
+				"final_project": ""
+			}
+		]
 
 	}
 };
@@ -260,7 +303,7 @@ var contactView = {
 var skillsView = {
 	render: function() {
 		octopus.getAllSkills().forEach( function( skills ) {
-	 		skillsView.formattedSkills = HTMLskills.replace("%data%", skills);
+			skillsView.formattedSkills = HTMLskills.replace("%data%", skills);
 			skillsView.$skillsNode.append(skillsView.formattedSkills);
 		});
 
