@@ -62,12 +62,14 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     resume below. You can pretty easily figure out what each section will
     display by looking at the id or at what's written between the <h2> tags.
     -->
-    <div id="header" class="center-content clear-fix">
-      <div id="me"></div>
-      <ul id="topContacts" class="flex-box"></ul>
-      <figure id="avatar"></figure>
-      <div class="flex-box welcome-message" id="welcome-message"></div>
-      <ul id="skills" class="flex-box skills"></ul>
+    <div id="header" class="header">
+      <div class="header-overlay center-content clear-fix">
+        <div id="me"></div>
+        <ul id="topContacts" class="flex-box"></ul>
+        <figure id="avatar"></figure>
+        <div class="flex-box welcome-message" id="welcome-message"></div>
+        <ul id="skills" class="flex-box skills"></ul>
+      </div>
     </div>
     <div style="clear: both;"></div>
     <div id="workExperience" class="gray">
@@ -96,6 +98,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   writing. In resumeBuilder.js, you'll be writing code that builds the resume
   dynamically when this website, index.html, is opened.
   -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
 
   <!-- build:js js/main.js -->
   <script src="js/jQuery.js"></script>

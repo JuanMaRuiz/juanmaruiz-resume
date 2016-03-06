@@ -115,7 +115,7 @@ module.exports = function(grunt) {
 	            tasks:[ 'build']
 	        },
 	        styles: {
-	            files: ['app/styles/styles.css'],
+	            files: ['app/css/style.css'],
 	            tasks:['build']
 	        },
 	        livereload: {
